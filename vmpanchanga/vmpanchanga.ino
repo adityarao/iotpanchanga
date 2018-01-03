@@ -41,7 +41,7 @@
 
 // timezonedb host & URLs 
 const char *timezonedbhost = "api.timezonedb.com";
-const char *timezoneparams = "/v2/get-time-zone?key=NAQ9N7E21XFY&by=zone&zone=Asia/Kolkata&format=json";
+const char *timezoneparams = "/v2/get-time-zone?key=&by=zone&zone=Asia/Kolkata&format=json";
 
 #define MAX_CONTENT_SIZE  512
 
@@ -60,7 +60,7 @@ const char *timezoneparams = "/v2/get-time-zone?key=NAQ9N7E21XFY&by=zone&zone=As
 
 // define host and connection params to Google Spread Sheets
 const char *googlehost = "sheets.googleapis.com";
-const char *sheetsURI = "/v4/spreadsheets/1n7tRwZXT9AU4lnxRNGHZRrRcaLSZIq6upOHqIjR1bpI/values/Sheet2!A1:L2?key=AIzaSyDA7nPA320L7-crzsV3OAhUzIkxqupSjhQ";
+const char *sheetsURI = "/v4/spreadsheets/";
 
 const String MONTHS[] = {
   "JAN",
